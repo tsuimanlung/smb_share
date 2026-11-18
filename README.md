@@ -107,4 +107,6 @@ python -m PyInstaller --onefile --noconsole --clean --noconfirm --name SMBScanne
 
 ## 📄 许可
 
-暂未指定开源许可证，再分发或商用前请联系仓库所有者确认。
+本项目采用 [MIT License](LICENSE)：允许任何人使用、复制、修改、合并、发布、分发、再授权及商用，只需在副本中保留版权声明与许可声明；软件按「现状」提供，不作任何担保。
+
+Copyright (c) 2026 tsuimanlung
