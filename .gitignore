@@ -13,3 +13,8 @@ SMBConnector1.3.exe
 # 运行/临时文件
 *.log
 *.tmp
+
+# 本地发布工具与 GitHub 令牌（切勿公开）
+.gh_token
+publish_to_github.py
+publish.bat
