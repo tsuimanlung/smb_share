@@ -47,7 +47,7 @@ Windows 单文件桌面工具，Python / tkinter 编写，纯标准库实现，�
 
 ## 🚀 直接运行
 
-1. 下载 [SMBScanner.exe](SMBScanner.exe)（Windows 10/11 x64，约 12 MB，双击即用，无需安装 Python）
+1. 到 [Releases 最新版](https://github.com/tsuimanlung/smb_share/releases/latest) 下载 `SMBScanner.exe`（Windows 10/11 x64，约 12 MB，双击即用，无需安装 Python）；也可直接取仓库根目录的 [SMBScanner.exe](SMBScanner.exe)
 2. 在「扫描目标」填入网段，例如 `192.168.1.0/24` 或 `10.0.0.10-10.0.0.30`
 3. 点「开始扫描」；双击结果行打开共享，右键可映射 / 导出
 4. 首次运行可能被 SmartScreen 拦截（未做代码签名），选「仍要运行」即可
