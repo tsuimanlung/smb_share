@@ -15,12 +15,11 @@ if errorlevel 1 (
   exit /b 1
 )
 
-rem 由 staff_1024.jpg 生成多尺寸 ico（已有 staff.ico 则跳过）
+rem 生成图标：本机有 staff.ico 直接用，刚 clone 的仓库会自动画一个内置图标
+"%PY%" make_icon.py
 if not exist "staff.ico" (
-  "%PY%" -c "from PIL import Image; im=Image.open('staff_1024.jpg'); im.save('staff.ico', format='ICO', sizes=[(256,256),(128,128),(64,64),(48,48),(32,32),(16,16)])"
-)
-if not exist "staff.ico" (
-  echo [错误] 未找到 staff.ico 且无法从 staff_1024.jpg 生成
+  echo [错误] 图标生成失败，请先安装 Pillow：
+  echo   "%PY%" -m pip install Pillow
   pause
   exit /b 1
 )
